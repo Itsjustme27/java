@@ -34,27 +34,28 @@ public class App {
             System.out.println("Computer chose "+ compChoice);
 
             if (userChoice.equals("rock") && compChoice.equals("scissors")) {
-                System.out.println("User Wins\n");
+                System.out.println("User Wins!\n");
                 userWins++;
                 continue;
             }else if(userChoice.equals("paper") && compChoice.equals("rock")){
-                System.out.println("User Wins\n");
+                System.out.println("User Wins!\n");
                 userWins++;
                 continue;
             }else if(userChoice.equals("scissors") && compChoice.equals("paper")){
-                System.out.println("User Wins\n");
+                System.out.println("User Wins!\n");
                 userWins++;
                 continue;
             }else if(userChoice.equals(compChoice)){
-                System.out.println("It's a draw\n");
+                System.out.println("It's a draw!\n");
                 draw++;
                 continue;
             }else{
-                System.out.println("Computer Wins\n");
+                System.out.println("Computer Wins!\n");
                 compWins++;
                 continue;
             }
 
         }
+        myObj.close();
     }
 }
