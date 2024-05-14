@@ -22,8 +22,10 @@ public class Student {
     }
 
     public void setAge(int age) {
-        if (age > 0) {  //Validation
+        if (age >= 0) {  //Validation
             this.age = age; 
+        }else{
+            System.out.println("You aint born yet");
         }   
     }
 }

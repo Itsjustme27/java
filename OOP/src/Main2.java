@@ -13,11 +13,8 @@ public class Main2 {
         Student s1 = new Student();
 
         s1.setName("Sujal");
-        System.out.println(s1.getName());
+        System.out.printf("Name : %s\n", s1.getName());
         s1.setAge(9);
-        System.out.println(s1.getAge());
-
-
-
+        System.out.printf("Age: %d\n", s1.getAge());
     }
 }
