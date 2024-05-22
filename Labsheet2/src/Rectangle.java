@@ -6,13 +6,13 @@ public class Rectangle {
     }
 
     public static void main(String[] args) {
-        float firsRectangleArea;
-        Rectangle firsRectangle = new Rectangle();
-        firsRectangle.length = 12.2f;
-        firsRectangle.width = 5.5f;
+        float firstRectangleArea;
+        Rectangle firstRectangle = new Rectangle();
+        firstRectangle.length = 12.2f;
+        firstRectangle.width = 5.5f;
 
-        firsRectangleArea = firsRectangle.area();
-        System.out.println("The area of Rectangle is : " + firsRectangleArea);
+        firstRectangleArea = firstRectangle.area();
+        System.out.println("The area of Rectangle is : " + firstRectangleArea);
 
     } 
 }
