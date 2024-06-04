@@ -7,7 +7,7 @@ public class BankAccount {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.accountName = accountName;
-        System.out.println("Account number: " + accountNumber + "\nBalance: " + balance + "\nAccount Name: " + accountName);
+        System.out.println("Account number: " + this.accountNumber + "\nBalance: " + this.balance + "\nAccount Name: " + this.accountName);
     }
 
     public void depositMoney(int depositAmt) {

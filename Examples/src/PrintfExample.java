@@ -1,6 +1,12 @@
 public class PrintfExample{
     public static void main(String[] args) throws Exception {
-        printMyName(args[0]);
+        try{
+            printMyName(args[0]);
+        }catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception: " + e);
+        }finally {
+            System.out.println("Debug Done!");
+        }
     }
 
     static void printMyName(String name){
