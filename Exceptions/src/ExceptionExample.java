@@ -1,4 +1,5 @@
-public class Exception {
+public class ExceptionExample {
+
     public static int divide(int a, int b) throws ArithmeticException {
         if(b == 0) {
             throw new ArithmeticException("Don't do zat, dont divide by zero!");
