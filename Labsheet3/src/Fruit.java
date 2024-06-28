@@ -1,3 +1,11 @@
 public class Fruit {
-	public String color;
+	private String color;
+	
+	public Fruit(String color) {
+		this.color = color;
+	}
+	
+	public void displayInfo() {
+		System.out.println("Fruit's Color: " + color);
+	}
 }

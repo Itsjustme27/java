@@ -1,13 +1,10 @@
+public class MathOperation {
 
-public class MathOperation implements IMathOperation  {
-	public void operation(int x, int y) {
-		System.out.println(x+y);
-	}
-	
-	public static void main(String[] args) {
-		MathOperation add = new MathOperation();
-		add.operation(1,1);
-	}
-	
-	
+    private static void operate(int x, int y, IMathOperation mathOp) {
+        System.out.println(mathOp.operation(x, y));
+    }
+
+    public static void main(String[] args) {
+        operate(1, 1, (x, y) -> x + y);
+    }
 }

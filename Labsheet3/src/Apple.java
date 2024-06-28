@@ -1,15 +1,14 @@
 
 public class Apple extends Fruit {
-	private String color;
 	private String taste;
 	
 	public Apple(String color, String taste) {
-		this.color = color;
+		super(color);
 		this.taste = taste;
 	}
 	
 	public void displayInfo() {
-		System.out.println("Color of Apple: " + this.color);
+		super.displayInfo();
 		System.out.println("Taste of Apple: " + this.taste);
 	}
 	
