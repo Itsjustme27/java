@@ -48,7 +48,7 @@ public class Calculator {
         divideButton.addActionListener(e -> {
             int num1 = Integer.parseInt(textField.getText());
             int num2 = Integer.parseInt(textField.getText());
-            int div = num1 + num2;
+            int div = num1 / num2;
             resultLabel.setText("resultLabel : " + div);
         });
 
