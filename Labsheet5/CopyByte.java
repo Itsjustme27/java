@@ -1,3 +1,4 @@
+//Question no. 2
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
